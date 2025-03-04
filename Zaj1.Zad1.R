@@ -16,15 +16,15 @@ library(ggplot2)
 
 ggplot(frequent_terms, aes(x = WORD, y = FREQ)) +
   geom_bar(stat = "identity", fill = "skyblue") +
-  labs(x = "S³owo", y = "Czêstoœæ") +
+  labs(x = "Sé€™wo", y = "Czç˜°toî°«") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  ggtitle("Wykres czêstoœci s³ów")
+  ggtitle("Wykres czç˜°toî¯Ši så ¯w")
 
 ggplot(frequent_terms, aes(y = WORD, x = FREQ)) +
   geom_bar(stat = "identity", fill = "skyblue") +
-  labs(x = "S³owo", y = "Czêstoœæ") +
+  labs(x = "Sé€™wo", y = "Czç˜°toî°«") +
   theme(axis.text.x = element_text(angle = 0, hjust = 1)) +
-  ggtitle("Wykres czêstoœci s³ów")
+  ggtitle("Wykres czç˜°toî¯Ši så ¯w")
 
 Top25Words
 Top100Words
